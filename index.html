@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text TO IMAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Image Generator</h1>
+    <div class= "inp">
+        <input type="text" id="finpt" placeholder="Enter your prompt">
+    </div>
+
+    <div class="fetch-button">
+        <button id="btn">Generate Image</button>
+    </div>
+
+    <div id="loading">
+        <div></div> <!-- Spinner itself -->
+        <span class="loading-span">Generating image...</span> <!-- Text below the spinner -->
+    </div>
+    
+    <div class="feched-image">
+        <img id="fimg" alt="Generated image will appear here">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
